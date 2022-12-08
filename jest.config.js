@@ -15,5 +15,7 @@ module.exports = {
     coveragePathIgnorePatterns: ["/node_modules/"],
     moduleNameMapper: {
       "\\.(css|less)$": "identity-obj-proxy",
-    }
+    },
+    collectCoverage: true,
+    collectCoverageFrom: ['<rootDir>/src/app/**/*.ts']
   }
